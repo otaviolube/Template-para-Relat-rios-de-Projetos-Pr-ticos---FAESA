@@ -1,0 +1,76 @@
+\documentclass{article}
+
+\usepackage[final]{assets/config}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[portuguese]{babel}
+
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{graphicx}
+
+\usepackage{biblatex}
+\addbibresource{referencial/referencias.bib}
+
+\title{Relatório de Projeto Prático}
+
+\author{
+  Autor 1 \\
+  Unidade de Engenharia e Computação \\
+  Centro Universitário FAESA \\
+  \texttt{autor1@email.com} \\
+  \And
+  Autor 2 \\
+  Unidade de Engenharia e Computação \\
+  Centro Universitário FAESA \\
+  \texttt{autor2@email.com} \\
+  \And
+  Autor 3 \\
+  Unidade de Engenharia e Computação \\
+  Centro Universitário FAESA\\
+  \texttt{autor3@email.com} \\
+  \And
+  Autor 4 \\
+  Unidade de Engenharia e Computação \\
+  Centro Universitário FAESA\\
+  \texttt{autor4@email.com} \\
+}
+
+\begin{document}
+
+\noindent\begin{minipage}{0.15\textwidth}
+\includegraphics[width=2.0cm]{imagens/logo_faesa_pb.png}
+\end{minipage}
+\hfill
+\begin{minipage}{1\textwidth}\raggedright
+Centro Universitário FAESA \\
+Eletrônica Básica I \\
+\end{minipage}
+
+\maketitle
+
+\begin{abstract}
+  Faça aqui uma breve apresentação de seu relatório. Insira uma pequena contextualização, quais os objetivos a serem alcançados, o método utilizado e os resultados alcançados.
+\end{abstract}
+
+\input{textos/introducao}
+
+\input{textos/referencial}
+
+\input{textos/metodologia}
+
+\input{textos/resultados}
+
+\input{textos/analise}
+
+\input{textos/consideracoes_finais}
+
+\printbibliography
+
+\end{document}
